@@ -5,7 +5,9 @@ import logo1 from './images/back.jpg';
 import star from './images/star.png';
 import bell from './images/bell.png';
 import menu from './images/menu.png';
-import info from './images/info.png'
+import info from './images/info.png';
+import Snack1 from './images/imh1.jpg';
+import Snack2 from './images/imh2.jpg';
 
 function App() {
   return (
@@ -54,6 +56,15 @@ function App() {
           </div>
 
           <hr class="line2"></hr>
+          <div className="part3">
+            <h2>Snacks</h2>
+            <table>
+              <tr>
+                <td><img id="img3" src={Snack1}></img></td>
+                <td><img id="img4" src={Snack2}></img></td>
+              </tr>
+            </table>
+          </div>
 
         </div>
         

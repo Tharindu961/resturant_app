@@ -5,21 +5,26 @@
 
 .App {
   background-image: url(./images/new.jpg);
+  background-attachment: fixed;
   background-repeat: no-repeat;
   
+  background-size: 1920px 1080px;
 }
 
-.header {
+.header h1{
   font-family: sans-serif;
   font-weight: 700;
   text-align: center;
   padding-top: 20px;
+  text-decoration: aliceblue;
+  font-size: 30px;
+  text-decoration-color: #ddd;
 }
 
 .body {
   margin-top: 40px;
   width: 1500px;
-  height: auto;
+  height: 1500px;
   border-style: solid;
   border-radius: 0em;
   border-color: black;
@@ -79,7 +84,7 @@
 .down {
   padding-top: 20px;
   width: auto;
-  height: 600px;
+  height: 1175px;
   border-style: solid ;
   border-radius: 200px 200px 0 0;
 }
@@ -132,4 +137,31 @@ hr.line {
   width: 200px;
   padding-right: 300px;
   height: 200px;
+}
+
+hr.line2 {
+  border: 1px solid black;
+  width: 1100px;
+  margin-left: 200px;
+  margin-top: 30px;
+}
+
+.part3 h2{
+  font-weight: 800;
+  padding-top: 20px;
+  padding-left: 200px;
+}
+
+.part3 table{
+  padding-top: 30px;
+}
+
+.part3 #img3{
+  width: 500px;
+  padding-left: 200px;
+}
+
+.part3 #img4{
+  width: 500px;
+  padding-left: 200px;
 }
