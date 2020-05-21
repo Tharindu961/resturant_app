@@ -81,5 +81,30 @@
   width: auto;
   height: 600px;
   border-style: solid ;
-  border-radius: 200px;
+  border-radius: 200px 200px 0 0;
+}
+
+.part {
+ height: 50px;
+}
+
+.head2 h2{
+  text-align: center;
+  
+}
+
+.rate h3{
+  
+}
+
+.rate  img{
+  padding-left: 120px;
+  width: 60px;
+  height: 60px;
+  padding-top: 90px;
+}
+
+.rate #bell{
+  float: right;
+  padding-right: 120px;
 }

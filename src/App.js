@@ -2,6 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import logo1 from './images/back.jpg';
+import star from './images/star.png';
+import bell from './images/bell.png';
 
 function App() {
   return (
@@ -26,7 +28,17 @@ function App() {
         </div>
         <div className="down">
           <div className="part1">
+          <div className="head2">
             <h2>SR Bistro</h2>
+            </div>
+            <div className="rate">
+            
+            <img src={star}></img>
+            
+            <img id="bell" src={bell}></img>
+            <h3>5.0</h3>
+            </div>
+            
           </div>
         </div>
       </div>
