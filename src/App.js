@@ -4,6 +4,8 @@ import './App.css';
 import logo1 from './images/back.jpg';
 import star from './images/star.png';
 import bell from './images/bell.png';
+import menu from './images/menu.png';
+import info from './images/info.png'
 
 function App() {
   return (
@@ -40,7 +42,21 @@ function App() {
             </div>
             
           </div>
+          <hr class="line"></hr>
+
+          <div className="part2">
+            <table>
+              <tr>
+                <td><img id="img1" src={menu}></img></td>
+                <td><img id="img2" src={info}></img></td>
+              </tr>
+            </table>
+          </div>
+
+          <hr class="line2"></hr>
+
         </div>
+        
       </div>
 
     </div>
